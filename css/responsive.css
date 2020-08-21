@@ -1,0 +1,68 @@
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 340px){
+    .header_section .main .navbar,
+    .header_section .main .navbar .navbar-brand
+    {
+        padding: 2%;
+        margin: 0%;
+    }
+
+    .site-main .home .home-title h1{
+        font-size: 41px;
+    }
+    .site-main .about-section {
+        margin-bottom: 100px;
+    }
+    .contact-section .contact-img .contact-content {
+        font-size: 30px;
+    }
+
+}
+
+
+/* if the viewport is equal to 340px or less than that */ 
+@media only screen and (max-width: 792px){
+    .site-main .about-section .about-text h2 {
+        font-size: 31px;
+        letter-spacing: 10px;
+    }
+
+    .site-main .project-section .button-group button{
+        font: normal 500 18px/40px var(--roboto);
+    }
+
+    .site-main .about-section .about-text p{
+        padding: 0%;
+    }
+
+    .site-main .about-section {
+        margin-bottom: 100px;
+    }
+    .contact-section .contact-img .contact-content {
+        font-size: 30px;
+    }
+
+}
+
+/* if the viewport is equal to 1910px or less than that */ 
+@media only screen and (max-width: 1910px){
+    .header_section .main .navbar{
+        padding: 1rem;
+    }
+
+    .container{
+        max-width: 90%;
+    }
+
+
+    .site-main .about-section{
+        padding: 3% 4%;
+    }
+
+    .site-main .about-section {
+        margin-bottom: 100px;
+    }
+
+
+
+}
