@@ -36,43 +36,6 @@ $(document).ready(function(){
             });  
         });
 
- $(document).ready(function(){
-    
-    var navTop = $('#navbar_content').offset().top;
-    var navHeight = $('#navbar_content').height();
-    var windowH = $(window).height();
-    
-    $('.section').height(windowH);
-    
-    $(document).scroll(function(){
-      var st = $(this).scrollTop();
-        
-        //for the nav bar:
-      if(st > navTop ){
-        $('#navbar_content').addClass('fix');
-        $('.section:eq(0)').css({'margin-top':navHeight});//fix  scrolling issue due to the fix nav bar
-      }else{
-        $('#navbar_content').removeClass('fix');
-        $('.section:eq(0)').css({'margin-top':'0'});
-      }
-        
-      $('.section').each(function(index, element) {
-        if(st + navHeight > $(this).offset().top && st + navHeight  <= $(this).offset().top + $(this).height()  ){
-          $(this).addClass('active');	
-                
-                var id = $(this).attr('id');
-                $('a[href="#'+id+'"]').parent('li').addClass('active');
-          // or $('#nav li:eq('+index+')').addClass('active');
-        }else{
-          $(this).removeClass('active');
-                
-                var id = $(this).attr('id');
-                $('a[href="#'+id+'"]').parent('li').removeClass('active');
-          //or $('#nav li:eq('+index+')').removeClass('active');
-        }
-        
-      });
-      
-    });
-        
-    });
+function home(){
+          window.scrollTo(0,730);
+}
