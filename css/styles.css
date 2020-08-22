@@ -2,8 +2,8 @@
 
 @import url(./partials/_variables.css);
 
-body {
-    position: relative;
+html {
+  scroll-behavior: smooth;
 }
 
 .about-section {
@@ -239,3 +239,6 @@ footer.footer-section .footer-icons a:hover > i{
     background-color: white;
 }
 
+a {
+    cursor: pointer;
+}
