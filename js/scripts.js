@@ -36,6 +36,6 @@ $(document).ready(function(){
             });  
         });
 
-function home(){
+function about(){
           window.scrollTo(0,730);
 }
