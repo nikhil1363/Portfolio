@@ -3,9 +3,12 @@
 @import url(./partials/_variables.css);
 
 html {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
+a {
+    cursor: pointer;
+}
 .about-section {
     height: 600px;
 }
@@ -107,7 +110,7 @@ html {
 
 
 
-/*ABOUT SECTION*/
+/ABOUT SECTION/
 
 .site-main .about-section{
     padding:8rem 5rem;
@@ -126,12 +129,12 @@ html {
 
 
 .skills-section {
-    padding-bottom: 120px;
+    padding-bottom: 250px;
 }
 
 .skills-section h1{
     font: normal bold 49px/ 60px ;
-    padding-bottom: 10px;
+    padding-bottom: 50px;
 }
 
 .skill + .skill {
@@ -157,7 +160,7 @@ html {
 }
 
 
-/*PROJECTS SECTION*/
+/PROJECTS SECTION/
 .site-main .project-section{
     padding: 2rem 0;
    
@@ -196,7 +199,7 @@ button:hover
 
 
 
-/*CONTACT*/
+/CONTACT/
 
 .contact-section .contact-title{
     padding: 4rem 0;
@@ -239,6 +242,6 @@ footer.footer-section .footer-icons a:hover > i{
     background-color: white;
 }
 
-a {
-    cursor: pointer;
+.skills-section {
+    margin-top: 250px;
 }
