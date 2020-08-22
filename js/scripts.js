@@ -36,6 +36,16 @@ $(document).ready(function(){
             });  
         });
 
-function about(){
+        function about() {
           window.scrollTo(0,730);
-}
+        }
+        function skills() {
+          window.scrollTo(0,1500);
+        }
+        function projects() {
+          window.scrollTo(0,2180);
+        }
+        function contact() {
+          window.scrollTo(0,2920);
+        }
+
